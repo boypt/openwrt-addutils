@@ -8,15 +8,14 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=progress
-PKG_VERSION:=0.9
+PKG_VERSION:=0.13.1
 PKG_RELEASE:=1
-
-https://github.com/Xfennec/progress/archive/v0.9.tar.gz
 
 PKG_SOURCE:=v$(PKG_VERSION).tar.gz
 PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)-$(PKG_VERSION)
 PKG_SOURCE_URL:=https://github.com/Xfennec/progress/archive/
 PKG_MD5SUM:=
+PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)-$(PKG_VERSION)
 
 include $(INCLUDE_DIR)/package.mk
 
